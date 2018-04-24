@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "	margin-bottom": expected ";", was ": 4%;"
+        on line 108 of F:\CM_project\src\sass\style.scss
+
+103: 	border-bottom:1px solid rgb(236, 236, 236);
+104: 	font-size: 1.5em;
+105: 	color:#000;
+106: 	line-height: 1.8em;
+107: 	text-transform:uppercase
+108: 	margin-bottom: 4%;
+109: }
+110: .h_nav h4.top{
+111: 	margin-top:1%;
+112: }
+113: .h_nav ul li{
+
+Backtrace:
+F:\CM_project\src\sass\style.scss:108
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:761:in `block in try_declaration'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `call'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `rethrow'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:771:in `try_declaration'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/sass_/an/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/sass_/an/Koala/bin/sass:18:in `load'
+D:/sass_/an/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"	margin-bottom\": expected \";\", was \": 4%;\"\A         on line 108 of F:\CM_project\src\sass\style.scss\A \A 103: 	border-bottom:1px solid rgb(236, 236, 236);\A 104: 	font-size: 1.5em;\A 105: 	color:#000;\A 106: 	line-height: 1.8em;\A 107: 	text-transform:uppercase\A 108: 	margin-bottom: 4%;\A 109: }\A 110: .h_nav h4.top{\A 111: 	margin-top:1%;\A 112: }\A 113: .h_nav ul li{"; }

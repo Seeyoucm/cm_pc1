@@ -3,7 +3,8 @@ let gulp = require("gulp"),
     uglifyJS = require("gulp-uglify"),
     babel = require("gulp-babel"),
      htmlmin = require("gulp-htmlmin"),
-    connect = require("gulp-connect");
+    connect = require("gulp-connect")
+    dest = "dist";//项目部署目标目录
 
 // 定制任务：编译sass
 gulp.task("sass", function(){
@@ -30,13 +31,13 @@ gulp.task("html", function(){
         .pipe(htmlmin({collapseWhitespace: true, minifyCSS: true, minifyJS: true}))
         .pipe(gulp.dest("./dist"))
         .pipe(connect.reload());
-});*/
+});
 
 
 // 启动服务器
 gulp.task('connect', function() {
     connect.server({
-        root : "dist",
+        root : dest,
         livereload : true
     });
 });
@@ -65,5 +66,5 @@ gulp.task('watch', function () {
     gulp.watch(['./src/js/*.js'],['js']);
     gulp.watch(['./src/sass/*.scss'],['sass']);
 });
-
-gulp.task('default', ['connect', 'watch']);
+//定制默认任务
+gulp.task('default', ["sass","js","html","copy",'connect', 'watch']);

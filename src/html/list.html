@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+    <link rel="stylesheet" type="text/css" href="../css/cz.css">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <!-- 头部复用 -->
+    <div id="list_header"></div>
+    <!-- content -->
+    <div class="list_content">
+        <div class="j-main">
+            <div class="j-ban"></div>
+            <div class="jk_s comment-width">
+                <div id="xg" class="j_block">
+                    <div class="b_title">
+                        <img src="../images/title-1711201.png" width="990" height="130">
+                    </div>
+                    <div id="j-con" class="block-content tab">
+                        <ul class="tab_ul">
+                            <li class="t_t">日常护肤</li>
+                            <li class="t_t">心机彩妆</li>
+                            <li class="t_t">手表配饰</li>
+                        </ul>
+                        <div class="p_list j_1 active">
+                            <ul class="fixclear uj_1" id="u_lpul">
+                                <!-- artTemplate 模板字符串 -->
+                                <script type="text/html" id="listj_left">
+                                    {{ each products prod }}
+                                    <li class="left">
+                                        <a href="#" title="{{prod.title}}" target="_blank">
+                                            <img src="{{prod.img}}"  alt="{{prod.title}}" class="t-lazy" width="240" height="240" style="display: block;">
+                                            <span class="name">{{prod.title}}</span>   
+                                            <span class="pprice">
+                                                ${{prod.price.toFixed(2)}}
+                                            </span>
+                                            <span class="buybtn">立即购买</span>
+                                        </a>
+                                    </li>                                        
+                                    {{/each}}
+                                </script>
+                            </ul>
+                        </div>
+                        <div class="p_list j_2">
+                            <ul class="fixclear">
+                                <li class="center"></li>
+                            </ul>
+                        </div>
+                        <div class="p_list j_3">
+                            <ul class="fixclear">
+                                <li class="right"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <!-- 底部复用 -->
+    <div id="list_footer">  
+    </div>
+    
+    <script src="../lib/requirejs/require.js" data-main="../js/list.js"></script>
+</body>
+</html>

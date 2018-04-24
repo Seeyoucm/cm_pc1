@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Seeyoucm/cm_pc1/issues"
   },
-  "homepage": "https://github.com/Seeyoucm/cm_pc1#readme"
+  "homepage": "https://github.com/Seeyoucm/cm_pc1#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  }
 }
