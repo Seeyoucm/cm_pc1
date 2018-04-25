@@ -1,0 +1,234 @@
+@charset "utf-8";
+#detail_header{
+    height:117px;
+}
+.de_main{
+    background:#f6f6f6;
+    .main{
+        width:1190px;
+        margin:0 auto;
+        border:1px solid red;
+        .breadcrumbs{
+            width:1190px;
+            height:44px;
+            .nav{
+                width:1190px;
+                height:44px;
+                line-height:44px;
+                li{
+                    width:72px;
+                    font-size:12px;
+                    float:left;
+                    a{
+                       color:#999999; 
+                    }
+                    span{
+                            font-family: \5b8b\4f53;
+                            color: #999;
+                            padding-left:7px;
+                        }
+                }
+                .home{
+                    padding-left:24px;
+                    background:url(/images/detail/home.png) no-repeat left center;
+                    box-sizing:border-box;
+                    &:hover{
+                        color:#000;
+                    }
+                }
+                .mryz{
+                    &:hover{
+                        color:#000;
+                    }
+                }
+                .mbhf{
+                    &:hover{
+                        color:#000;
+                    }
+                }
+                .product{
+                    height:44px;
+                    width:286px;
+                    a{
+                        h4{
+                            font-weight:normal;
+                        }
+                    }
+
+
+                }
+            }
+        }
+        .col-main{
+            width:1190px;
+            .pro_view{
+                width:1190px;
+                height:618px;
+                background:#fff;
+                border:1px solid #e6e6e6;
+                margin-bottom:10px;
+                /*左边放大镜*/
+                .vie_w{
+                    width:400px;
+                    margin:20px 0 20px 20px;
+                    float:left;
+                    .zoom_box{
+                        width:400px;
+                        height:400px;
+                        border:1px solid #e6e6e6;
+                        margin-bottom:12px;
+                        img{
+                            width:398px;
+                            height:398px;
+                        }
+                    }
+                    .s_pic{
+                        .s_p{
+                            width:400px;
+                            height:70px;
+                            li{
+                                float:left;
+                                width:60px;
+                                height:60px;
+                                padding:4px;
+                                border:1px solid #e6e6e6;
+                                margin:0 0 20px 8px;
+                            }
+                        }
+                    }
+                    .fen_x{
+                        width:400px;
+                        height:95px;
+                            span{
+                                font-size:12px;
+                                line-height: 20px;
+                                color:#999999;
+                            }
+                            a{
+                                display:inline-block;
+                                width: 20px !important;
+                                height: 20px !important;
+                                margin: 2px 0 0 8px !important;
+                                padding: 0 !important;
+                                background: url(/images/detail/jingli.png) no-repeat !important;
+                             }
+                             .bds_tsina{
+                                margin-left: 0 !important;
+                                background-position: 0 -16px !important;
+                             }
+                             .bds_weixin {
+                                background-position: -20px -16px !important;
+                            }
+                            .bds_qzone {
+                                background-position: -40px -16px !important;
+                            }
+                            .bds_tqq {
+                                background-position: -60px -16px !important;
+                            }
+                            .bds_douban {
+                                background-position: -80px -16px !important;
+                            }
+                    }
+                }
+                /*中间详情*/
+            .pro-shop{
+                    width:590px;
+                    height:618px;
+                    border:1px solid red;
+                    float:left;
+                    padding:20px 29px 0 29px;
+                    box-sizing:border-box;
+                    .s_main{
+                        width:530px;
+                        height:597px;
+                        border:1px solid red;
+                        dl{
+                            width:530px;
+                            height:176px;
+                            border-bottom:1px dashed #dedede;
+                            dt{
+                                font-weight:bold;
+                                font-size:16px;
+                            }
+                            dd{
+                                font-size:11px;
+                                .x_p{
+                                    height:35px;
+                                    line-height:43px;
+                                    color:#999999;
+                                    .way{
+                                        background:url(/images/detail/country.png) no-repeat;
+                                        padding-left:31px;
+                                    }
+                                    .KR{
+                                        background-position:0 -1002px;
+                                    }
+                                    span:nth-child(2){
+                                        padding:0 17px 0 17px;
+                                    }
+                                    a{
+                                       color:#999999; 
+                                    }
+                                }
+                                .l_p{
+                                    line-height:19px;
+                                    color:#666666;
+                                }
+                            }
+                        }
+                        .price{
+                            width:530px;
+                            height:115px;
+                            background:#f5f5f5;
+                            border-bottom:1px dashed #dedede;
+                            .line{
+                                font-size:11px;
+                                color:#666666;
+                                height:35px;
+                                margin-left:9px;
+                                position:relative;
+                                padding-left:66px;
+                                label{
+                                    position:absolute;
+                                    left:0px;
+                                    top:0px;
+                                    width:50px;
+                                }
+                            }
+                            div:first-child{
+                                line-height:42px;
+                                p{
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    color: #f33;
+                                }
+                            }
+                            div:nth-child(2){
+                                line-height:38px;
+                                b{
+                                    font-weight:normal;
+                                    font-family: \5fae\8f6f\96c5\9ed1,Arial;
+                                    font-size: 12px;
+                                    color: #333;
+                                }
+                            }
+                            div:last-child{
+                                line-height:35px;
+                                    span{
+                                        font-weight:normal;
+                                    }                                
+                            }
+                        }
+                        .m_bottom{
+                            width:530px;
+                            height:308px;
+                            padding-left:9px;
+                            border:1px solid red;
+                            box-sizing:border-box;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

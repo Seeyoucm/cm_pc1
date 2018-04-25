@@ -58,7 +58,7 @@ gulp.task("copy-mock", function(){
         .pipe(gulp.dest("./dist/mock"))
         .pipe(connect.reload());
 });
-gulp.task("copy",["copy-images","copy-lib","copy-images"]);
+gulp.task("copy",["copy-images","copy-lib","copy-mock"]);
 
 //监视任务
 gulp.task('watch', function () {
