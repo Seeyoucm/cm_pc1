@@ -1,0 +1,14 @@
+{
+    "res_code":"0",
+    "res_error":"",
+    "res_body":{
+        "products":[
+            {"pid":2, "title":"【包邮装】Sulwhasoo 雪花秀 面部基础护理4件套（中样）", "price":89, "img":"../images/detail/59_2.jpg"},
+            {"pid":3, "title":"【包邮装】LA MER 海蓝之谜 精华面霜 经典传奇面霜 30ml", "price":1090, "img":"../images/detail/lamer.jpg"},
+            {"pid":4, "title":"【包邮装】SHAKU 熊野笔 美鼻清洁刷 粉色", "price":98, "img":"../images/detail/1_39_25.jpg"},
+            {"pid":5, "title":"【包邮装】LA MER 海蓝之谜 浓缩修护眼部精华霜 15ml", "price":1399, "img":"../images/detail/1_39_26.jpg"},
+            {"pid":6, "title":"【包邮装】LA MER 海蓝之谜 修护唇霜 9g", "price":428, "img":"../images/detail/4_14_37.jpg"},
+            {"pid":7, "title":"【包邮装】LANCOME 兰蔻 清莹柔肤化妆水 粉水 400ml", "price":385, "img":"../images/detail/1_39_28.jpg"}
+        ]
+    }
+}

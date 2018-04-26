@@ -1,6 +1,6 @@
 @charset "UTF-8";
 #detail_header {
-  height: 117px; }
+  height: 177px; }
 
 .de_main {
   background: #f6f6f6; }
@@ -49,7 +49,8 @@
         border: 1px solid #e6e6e6;
         margin-bottom: 10px;
         /*左边放大镜*/
-        /*中间详情*/ }
+        /*中间详情*/
+        /*右边推荐*/ }
         .de_main .main .col-main .pro_view .vie_w {
           width: 400px;
           margin: 20px 0 20px 20px;
@@ -98,16 +99,14 @@
             .de_main .main .col-main .pro_view .vie_w .fen_x .bds_douban {
               background-position: -80px -16px !important; }
         .de_main .main .col-main .pro_view .pro-shop {
-          width: 590px;
+          width: 587px;
           height: 618px;
-          border: 1px solid red;
           float: left;
           padding: 20px 29px 0 29px;
           box-sizing: border-box; }
           .de_main .main .col-main .pro_view .pro-shop .s_main {
             width: 530px;
-            height: 597px;
-            border: 1px solid red; }
+            height: 597px; }
             .de_main .main .col-main .pro_view .pro-shop .s_main dl {
               width: 530px;
               height: 176px;
@@ -171,7 +170,240 @@
               width: 530px;
               height: 308px;
               padding-left: 9px;
-              border: 1px solid red;
-              box-sizing: border-box; }
+              box-sizing: border-box;
+              font-size: 11px;
+              color: #666666;
+              /*服务承诺*/
+              /*支付方式*/ }
+              .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .d_m_top {
+                padding-left: 66px;
+                position: relative;
+                height: 39px;
+                line-height: 39px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .d_m_top label {
+                  position: absolute;
+                  top: 0px;
+                  left: 0px; }
+              .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart {
+                padding-left: 66px;
+                position: relative;
+                height: 35px;
+                line-height: 35px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart label {
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  width: 50px;
+                  line-height: 18px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart a {
+                  float: left;
+                  display: inline-block;
+                  height: 24px;
+                  width: 24px;
+                  border: 1px solid #cccccc; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart .qty-sub {
+                  background: url(/images/detail/detail_jaji.png) no-repeat -1px -1px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart .qty-add {
+                  background: url(/images/detail/detail_jaji.png) no-repeat -27px -1px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart .input-text {
+                  float: left;
+                  width: 38px;
+                  height: 22px;
+                  text-align: center;
+                  border: none;
+                  border-top: 1px solid #cccccc;
+                  border-bottom: 1px solid #cccccc; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart .newbox-tips {
+                  float: left;
+                  margin-left: 17px;
+                  width: 58px;
+                  height: 25px;
+                  line-height: 25px; }
+                  .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .add-to-cart .newbox-tips em {
+                    font-style: normal;
+                    color: #ff4444;
+                    padding: 0 5px 0 5px; }
+              .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .d_m_bo {
+                height: 65px;
+                line-height: 20px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .d_m_bo p {
+                  color: #ff8736; }
+              .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .buy-btn-wrap {
+                width: 160px;
+                height: 58px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .buy-btn-wrap a {
+                  display: block;
+                  height: 40px;
+                  line-height: 40px;
+                  width: 160px;
+                  font-size: 16px;
+                  color: #fff;
+                  background: #ff4444;
+                  text-align: center; }
+              .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .fwcl {
+                height: 36px;
+                line-height: 42px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .fwcl span {
+                  display: inline-block;
+                  width: 116px;
+                  height: 36px;
+                  margin-left: 18px;
+                  position: relative;
+                  padding-left: 22px;
+                  box-sizing: border-box; }
+                  .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .fwcl span i {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    position: absolute;
+                    top: 11px;
+                    left: 0px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .fwcl span:nth-child(2) i {
+                  background: url(/images/detail/jingli.png) no-repeat 0px 0px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .fwcl span:last-child {
+                  padding-left: 18px;
+                  margin: 0; }
+                  .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .fwcl span:last-child i {
+                    background: url(/images/detail/jingli.png) no-repeat -15px 0px; }
+              .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .zgfs {
+                height: 30px;
+                line-height: 27px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .zgfs span {
+                  display: inline-block;
+                  width: 116px;
+                  height: 32px;
+                  margin-left: 18px;
+                  position: relative;
+                  padding-left: 22px;
+                  box-sizing: border-box; }
+                  .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .zgfs span i {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    position: absolute;
+                    top: 5px;
+                    left: 0px;
+                    background: url(/images/detail/jingli.png) no-repeat -33px 0px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .zgfs span:nth-child(3) {
+                  margin: 0; }
+                  .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .zgfs span:nth-child(3) i {
+                    background: url(/images/detail/jingli.png) no-repeat -48px 0px; }
+                .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .zgfs span:last-child {
+                  margin: 0; }
+                  .de_main .main .col-main .pro_view .pro-shop .s_main .m_bottom .zgfs span:last-child i {
+                    background: url(/images/detail/jingli.png) no-repeat -64px 0px; }
+        .de_main .main .col-main .pro_view .sup {
+          width: 181px;
+          height: 617px;
+          border-left: 1px solid #f0f0f0;
+          float: right;
+          padding: 0 15px 0 15px;
+          box-sizing: border-box; }
+          .de_main .main .col-main .pro_view .sup .htc {
+            width: 150px;
+            height: 100px;
+            border-bottom: 1px solid #f0f0f0; }
+            .de_main .main .col-main .pro_view .sup .htc img {
+              width: 150px;
+              height: 100px; }
+          .de_main .main .col-main .pro_view .sup .cang {
+            width: 150px;
+            height: 144px; }
+            .de_main .main .col-main .pro_view .sup .cang h4 {
+              width: 150px;
+              height: 36px;
+              line-height: 36px;
+              font-size: 11px;
+              font-weight: normal;
+              color: #666;
+              text-align: center; }
+            .de_main .main .col-main .pro_view .sup .cang p {
+              height: 107px;
+              line-height: 17px;
+              font-size: 12px;
+              color: #aaa; }
+          .de_main .main .col-main .pro_view .sup .kan_k {
+            width: 150px;
+            height: 11px;
+            line-height: 11px;
+            text-align: center; }
+            .de_main .main .col-main .pro_view .sup .kan_k div {
+              margin-top: 5px;
+              float: left;
+              width: 34px;
+              border: 1px dashed #ddd; }
+            .de_main .main .col-main .pro_view .sup .kan_k .k_k {
+              width: 48px;
+              color: #999;
+              font-size: 11px;
+              border: none;
+              padding: 0 15px 0 15px;
+              margin: 0; }
+          .de_main .main .col-main .pro_view .sup .lb_tu {
+            width: 150px;
+            height: 242px;
+            position: relative; }
+            .de_main .main .col-main .pro_view .sup .lb_tu .lu {
+              position: relative;
+              left: 0px;
+              width: 150px;
+              height: 190px;
+              background: green; }
+            .de_main .main .col-main .pro_view .sup .lb_tu a {
+              position: absolute;
+              top: 203px;
+              display: block;
+              width: 26px;
+              height: 24px;
+              text-indent: -9999px; }
+            .de_main .main .col-main .pro_view .sup .lb_tu .pre {
+              left: 30px;
+              background: url(/images/detail/lb0.png) no-repeat; }
+            .de_main .main .col-main .pro_view .sup .lb_tu .next {
+              left: 93px;
+              background: url(/images/detail/lb0.png) no-repeat -26px 0px; }
+            .de_main .main .col-main .pro_view .sup .lb_tu .pageNum {
+              position: absolute;
+              top: 203px;
+              left: 56px;
+              display: block;
+              width: 36px;
+              height: 24px;
+              line-height: 24px;
+              font-family: Arial, sans-serif;
+              font-size: 14px;
+              color: #999;
+              text-align: center; }
+
+/*人气单品*/
+.pro_cen {
+  width: 1190px;
+  height: 307px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px; }
+  .pro_cen h3 {
+    font-weight: normal;
+    width: 1190px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 11px;
+    color: #666;
+    padding-left: 12px; }
+  .pro_cen .dptj {
+    width: 1188px;
+    height: 271px;
+    border: 1px solid red;
+    padding: 0 58px 30px 51px;
+    box-sizing: border-box; }
+    .pro_cen .dptj ul {
+      width: 1082px;
+      height: 243px;
+      border: 1px solid red; }
+      .pro_cen .dptj ul li {
+        float: left;
+        width: 131px;
+        height: 242px;
+        border: 1px solid red; }
 
 /*# sourceMappingURL=detail.css.map */
