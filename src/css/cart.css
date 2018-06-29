@@ -1,37 +1,37 @@
-.cart_header {
-  height: 178px;
-  background: #fff;
-  margin: 0 auto; }
-  .cart_header .h_top {
-    width: 1192px;
-    height: 30px;
-    line-height: 30px;
-    border-bottom: 1px solid #eeeeee;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 36px;
-    background: #fafafa; }
-    .cart_header .h_top p {
-      width: 338px;
-      font-size: 12px;
-      height: 30px;
-      display: inline-block;
-      margin: 0; }
-    .cart_header .h_top p:first-child {
-      color: #787878; }
-    .cart_header .h_top p:nth-child(2) {
-      width: 385px;
-      height: 30px; }
-      .cart_header .h_top p:nth-child(2) a {
-        color: #787878; }
-        .cart_header .h_top p:nth-child(2) a:hover {
-          color: #83afff; }
-      .cart_header .h_top p:nth-child(2) span {
-        color: #dfe5f0;
-        margin: 0 12px; }
-  .cart_header .bottom {
-    width: 1192px;
-    height: 100px;
-    border-bottom: 1px solid #eeeeee; }
+/*
+Error: Invalid CSS after "...1px solid #ddd;": expected "}", was ""
+        on line 232 of G:\CM_project\src\sass\cart.scss
 
-/*# sourceMappingURL=cart.css.map */
+227: }
+228: .cart .cart-body .shop-and-country {
+229:     height: 40px;
+230:     line-height: 40px;
+231:     margin: 0 26px;
+232:     border-bottom: 1px solid #ddd;
+
+Backtrace:
+G:\CM_project\src\sass\cart.scss:232
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:643:in `block'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+F:/5koala/an/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+F:/5koala/an/Koala/bin/sass:18:in `load'
+F:/5koala/an/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...1px solid #ddd;\": expected \"}\", was \"\"\A         on line 232 of G:\CM_project\src\sass\cart.scss\A \A 227: }\A 228: .cart .cart-body .shop-and-country {\A 229:     height: 40px;\A 230:     line-height: 40px;\A 231:     margin: 0 26px;\A 232:     border-bottom: 1px solid #ddd;"; }

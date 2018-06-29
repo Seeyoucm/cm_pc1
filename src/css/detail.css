@@ -6,8 +6,7 @@
   background: #f6f6f6; }
   .de_main .main {
     width: 1190px;
-    margin: 0 auto;
-    border: 1px solid red; }
+    margin: 0 auto; }
     .de_main .main .breadcrumbs {
       width: 1190px;
       height: 44px; }
@@ -393,17 +392,198 @@
   .pro_cen .dptj {
     width: 1188px;
     height: 271px;
-    border: 1px solid red;
-    padding: 0 58px 30px 51px;
+    padding-bottom: 30px;
     box-sizing: border-box; }
     .pro_cen .dptj ul {
-      width: 1082px;
-      height: 243px;
-      border: 1px solid red; }
+      width: 1184px;
+      height: 243px; }
       .pro_cen .dptj ul li {
         float: left;
-        width: 131px;
+        width: 140px;
         height: 242px;
-        border: 1px solid red; }
+        margin-left: 46px; }
+        .pro_cen .dptj ul li a:hover img {
+          transition: left .2s; }
+        .pro_cen .dptj ul li a:hover .name {
+          color: #0099d5; }
+        .pro_cen .dptj ul li img {
+          width: 140px;
+          height: 140px; }
+        .pro_cen .dptj ul li .name {
+          display: inline-block;
+          width: 137px;
+          height: 44px;
+          line-height: 22px;
+          font-size: 8px;
+          color: #666;
+          overflow: hidden; }
+        .pro_cen .dptj ul li .pprice {
+          font-weight: bold;
+          font-size: 12px;
+          color: #ff3333; }
+
+.pro_bom {
+  overflow: hidden; }
+  .pro_bom .p_left {
+    float: left;
+    width: 221px; }
+    .pro_bom .p_left .des_nav {
+      width: 221px;
+      height: 356px;
+      border: 1px solid #e6e6e6;
+      background: #fff;
+      margin-bottom: 12px; }
+      .pro_bom .p_left .des_nav h3 {
+        width: 220px;
+        height: 35px;
+        line-height: 35px;
+        font-weight: normal;
+        font-size: 12px;
+        color: #666;
+        padding-left: 15px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e6e6e6; }
+      .pro_bom .p_left .des_nav .des_xq {
+        margin-left: 15px;
+        width: 190px;
+        height: 320px; }
+        .pro_bom .p_left .des_nav .des_xq li {
+          height: 35px;
+          line-height: 35px;
+          font-size: 12px;
+          border-bottom: 1px solid #e6e6e6;
+          position: relative; }
+          .pro_bom .p_left .des_nav .des_xq li span a {
+            color: #00b2e2; }
+          .pro_bom .p_left .des_nav .des_xq li span b {
+            display: block;
+            width: 12px;
+            height: 12px;
+            cursor: pointer;
+            position: absolute;
+            top: 12px;
+            right: 0;
+            background: url(/images/detail/aside_ps.png); }
+    .pro_bom .p_left .de_host {
+      width: 221px;
+      height: 1433px;
+      border: 1px solid #e6e6e6;
+      background: #fff;
+      padding: 0 9px 0 9px;
+      box-sizing: border-box; }
+      .pro_bom .p_left .de_host h3 {
+        height: 35px;
+        line-height: 35px;
+        font-size: 12px;
+        color: #666;
+        box-sizing: border-box; }
+      .pro_bom .p_left .de_host ._host li {
+        width: 200px;
+        height: 231px;
+        border-bottom: 1px dashed #e6e6e6;
+        text-align: center; }
+        .pro_bom .p_left .de_host ._host li a {
+          width: 200px;
+          height: 184px;
+          position: relative; }
+          .pro_bom .p_left .de_host ._host li a:hover img {
+            transition: left .2s; }
+          .pro_bom .p_left .de_host ._host li a:hover .name {
+            color: #0099d5; }
+          .pro_bom .p_left .de_host ._host li a img {
+            width: 140px;
+            height: 140px;
+            margin-left: 20px; }
+          .pro_bom .p_left .de_host ._host li a .name {
+            display: block;
+            text-align: left;
+            height: 44px;
+            line-height: 23px;
+            font-size: 8px;
+            color: #666;
+            overflow: hidden; }
+        .pro_bom .p_left .de_host ._host li .pprice {
+          font-weight: bold;
+          color: #ff3333;
+          font-family: \5fae\8f6f\96c5\9ed1, sans-serif;
+          font-weight: bold;
+          margin-top: 11px;
+          text-align: left;
+          font-size: 16px; }
+
+/*商品详情大图*/
+.p_right {
+  float: right;
+  width: 960px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  margin-bottom: 15px;
+  /*描述*/
+  /*版本解释*/ }
+  .p_right .m_s {
+    width: 960px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    border-bottom: 1px solid #e6e6e6; }
+    .p_right .m_s a {
+      float: left;
+      display: inline-block;
+      width: 130px;
+      height: 40px;
+      text-align: center;
+      color: #333333;
+      border-right: 1px solid #e6e6e6; }
+      .p_right .m_s a:hover {
+        height: 41px;
+        background: #019cdf;
+        color: #fff; }
+  .p_right .detail_pro_current {
+    margin-top: 22px; }
+    .p_right .detail_pro_current .b_m {
+      width: 750px;
+      height: 190px;
+      margin: 0 auto 10px;
+      background: url(/images/detail/WXZS_3.jpg); }
+    .p_right .detail_pro_current .dpic {
+      width: 750px;
+      margin: 0 auto;
+      overflow: hidden;
+      padding-bottom: 19px; }
+      .p_right .detail_pro_current .dpic img {
+        display: block;
+        margin: 0 auto; }
+
+/*跟随导航*/
+#g_nav {
+  width: 100%;
+  height: 42px;
+  border-bottom: 1px solid #e6e6e6;
+  background: #fff;
+  z-index: 999;
+  position: fixed;
+  top: 0px;
+  left: 0px; }
+  #g_nav .g_v {
+    padding-left: 265px;
+    width: 960px;
+    height: 39px;
+    line-height: 40px;
+    font-size: 12px; }
+    #g_nav .g_v a {
+      float: left;
+      display: inline-block;
+      width: 130px;
+      height: 40px;
+      text-align: center;
+      color: #333333;
+      border-right: 1px solid #e6e6e6; }
+      #g_nav .g_v a:hover {
+        height: 41px;
+        background: #019cdf;
+        color: #fff; }
+    #g_nav .g_v a:first-child {
+      border-left: 1px solid #e6e6e6;
+      border-right: 1px solid #e6e6e6; }
 
 /*# sourceMappingURL=detail.css.map */

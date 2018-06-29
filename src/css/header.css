@@ -2,6 +2,10 @@
   height: 178px;
   background: #fff;
   margin: 0 auto; }
+  .header_container .k_top {
+    width: 100%;
+    height: 30px;
+    background: #fafafa; }
   .header_container .h_top {
     width: 1192px;
     height: 30px;
@@ -10,7 +14,8 @@
     display: flex;
     justify-content: space-between;
     padding: 0 36px;
-    background: #fafafa; }
+    background: #fafafa;
+    margin: 0 auto; }
     .header_container .h_top p {
       width: 338px;
       font-size: 12px;
@@ -33,10 +38,13 @@
       .header_container .h_top p:nth-child(2) span {
         color: #dfe5f0;
         margin: 0 12px; }
+  .header_container .k_header {
+    width: 100%;
+    height: 109px; }
   .header_container .h_header {
     width: 1191px;
     height: 109px;
-    margin-left: 36px; }
+    margin: 0 auto; }
     .header_container .h_header .lef {
       width: 699px;
       height: 108px;
@@ -91,12 +99,19 @@
         float: right;
         box-sizing: border-box; }
 
+.header_container .k_wrap {
+  width: 100%;
+  height: 39px;
+  background: #0099e6; }
+
 .header_container .wrap {
-  width: 1262px;
+  width: 1292px;
   height: 39px;
   background: #0099e6;
   padding: 0 37px;
-  color: #fff; }
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0 auto; }
   .header_container .wrap .h_nav {
     width: 1191px;
     height: 39px;
@@ -104,27 +119,28 @@
     justify-content: space-between; }
     .header_container .wrap .h_nav .left {
       width: 220px;
-      height: 39px; }
+      height: 39px;
+      position: relative; }
+      .header_container .wrap .h_nav .left:hover .l_u1 {
+        display: block; }
       .header_container .wrap .h_nav .left h3 {
         font-size: 12px;
         font-weight: bold;
         width: 220px;
-        height: 39px;
-        line-height: 39px;
+        height: 37px;
+        line-height: 37px;
         background: #0086d4;
         padding-left: 40px;
-        position: relative;
         float: left;
         box-sizing: border-box; }
-        .header_container .wrap .h_nav .left h3:hover .l_u1 {
-          display: block; }
       .header_container .wrap .h_nav .left .l_u1 {
         width: 220px;
         height: 420px;
         background: #f1fafd;
         position: absolute;
-        top: 182px;
-        left: 37px;
+        top: 0;
+        left: 0;
+        margin-top: 39px;
         display: none; }
         .header_container .wrap .h_nav .left .l_u1 .l_1:hover {
           border-left-color: #ff5555;
@@ -183,6 +199,6 @@
           color: #fff; }
     .header_container .wrap .h_nav img {
       width: 200px;
-      height: 38px; }
+      height: 37px; }
 
 /*# sourceMappingURL=header.css.map */

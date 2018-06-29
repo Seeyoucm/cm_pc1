@@ -216,9 +216,18 @@
                 }
             }
         }
+
+
         .cart_pro{
             margin-top:20px;
             width:1192px;
+            background: #fff;
         }
     }
+}
+.cart .cart-body .shop-and-country {
+    height: 40px;
+    line-height: 40px;
+    margin: 0 26px;
+    border-bottom: 1px solid #ddd;
 }

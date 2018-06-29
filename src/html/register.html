@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="/css/cz.css">
+    <link rel="stylesheet" type="text/css" href="/css/register.css">
+</head>
+<body>
+        <!-- 头部 -->
+        <div id = "register_header">
+            <div class="re_top">
+                <div class="wrap">
+                        <p class="left ykg">
+                                您好，<span id="customerName"></span> 欢迎来到海豚村
+                            </p>
+                            <ul>
+                                <li class="login-link logout">
+                                    <a>登录</a><span>|</span>
+                                </li>
+                                <li class="reg-link logout">
+                                    <a>注册</a><span>|</span>
+                                </li>
+                                <li class="mobile"><a href="javascript:void(0);">手机版</a><span>|</span></li>                              
+                                <li class="weibo"><a>关注</a><span>|</span></li>                             
+                                <li class="livesvc"><a href="javascript:void(0)">在线客服</a></li>
+                        </ul>
+                </div> 
+            </div>
+            <div class="re_bot">
+                    <div class="left">
+                            <a>
+                                <img src="http://assets.haituncun.com/skin/frontend/PlumTree/default/images/newindex/logo.png">
+                            </a>
+                    </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="re_banner">
+            <div class="wrap">
+                <div class="pic">
+                    <a>
+                        <img src="/images/zhuce.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 注册表单信息 -->
+                <div class="re_box">
+                    <div class="re_header">
+                        <b>新用户注册</b>
+                        <p>已有账号？<a>立即登录</a></p>
+                    </div>
+                    <div class="center">
+                        <form action="" id="re_form">
+                            <!-- 手机号码 -->
+                            <div >
+                                <span>手 机 号 码</span>
+                                <input type="text" id="phone" placeholder="请使用常用手机"/><b></b><a href="javascript:void(0);" class="next">或使用<b>邮箱注册</b></a>
+                            </div>
+                        <!-- 设置密码 -->
+                            <div>
+                                <span>请设置密码</span>
+                                <input type="text" id="set_pswd" placeholder="6-16个数字、字母或符号区分大小写"/><b></b>
+                            </div>
+                        <!-- 确认密码 -->
+                            <div>
+                                <span>确 认 密 码</span>
+                                <input type="text" id="con_pawd" placeholder="请输入确认密码"/><b></b>
+                            </div>
+                        <!-- 确认密码-->
+                            <div>
+                                <span>确 认 密 码</span>
+                                <input type="text" id="co_pawd" placeholder="请输入确认密码"/>
+                            </div>
+                        <!-- 验证码 -->
+                            <div> 
+                                <span>验  证  码</span>
+                                <input type="text" id="vcode" placeholder="请输入验证码"/><b></b>
+                                <a href="javascript:void(0);" id="exchange"></a>
+                            </div>
+                        <!-- 复选框 -->
+                            <span class="ck">
+                                <input type="checkbox" name="checkbox" id="checkbox" value="复选框1" />
+                                <p class="read">我已阅读并同意<a>《服务条款》</a>及<a>《隐私条款》</a></p>
+                            </span>    
+                        </form>
+                    </div>
+                    <div class="bottom">
+                        <button id="phoneReg">立即注册</button>   
+                        <div class="fo_b">
+                            <dl class="coagent">
+                                <dt>快捷登录方式:</dt>
+                                <dd class="qq"><a title="QQ"></a></dd>
+                                <dd class="sweibo"><a title="新浪微博"></a></dd>
+                                <dd class="ali"><a title="支付宝"></a></dd>
+                                <dd class="bank"><a title="银联"></a></dd>
+                            </dl>
+                            <div class="by_weixin right">
+                                <div class="wx_tip">微信扫描直接登录</div>
+                                <div class="wx_entry">
+                                    <a id="wx_toggle" class="wx_toggle" href="javascript:void(0);"></a>
+                                </div>
+                            </div>
+                        </div>                                               
+                    </div>                    
+                </div>
+            </div>
+        </div>    
+        <!-- 底部 -->
+            <div class="footer">
+                <div class="wraper clearfix">
+                    <div class="crdc">
+                        <div class="copyright">
+                            <span>COPYRIGHT © 2013-2018                    All Rights Reserved. <a href="http://www.miitbeian.gov.cn" target="_blank" style="text-decoration:none;color:#999;">粤ICP备 13081207号</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- javascript -->
+        <script type="text/javascript" src="/lib/requirejs/require.js" data-main="/js/register"></script>
+</body>
+</html>

@@ -1,7 +1,12 @@
-.header_container {
+.header_container { 
   height: 178px;
   background: #fff;
   margin: 0 auto; 
+      .k_top{
+          width: 100%;
+          height: 30px;
+          background: #fafafa; 
+      }
       .h_top{
           width: 1192px;
           height: 30px;
@@ -11,6 +16,7 @@
           justify-content: space-between;
           padding: 0 36px;
           background: #fafafa; 
+          margin: 0 auto;
               p {
                 width:338px;
                 font-size:12px;
@@ -38,11 +44,15 @@
                     margin: 0 12px; 
                   }
             }
-      }   
+      }
+      .k_header{
+          width: 100%;
+          height: 109px;
+      }  
       .h_header {
           width: 1191px;
           height: 109px;
-          margin-left: 36px; 
+          margin: 0 auto;
           .lef {
                 width: 699px;
                 height: 108px;
@@ -105,12 +115,19 @@
             }
       }
 }
+.header_container .k_wrap{
+    width: 100%;
+    height: 39px;
+    background: #0099e6;
+}
 .header_container .wrap{
-    width: 1262px;
+    width: 1292px;
     height: 39px;
     background: #0099e6;
     padding:0 37px;
     color: #fff;
+    box-sizing: border-box;
+    margin: 0 auto;
         .h_nav{
             width: 1191px;
             height: 39px;
@@ -119,6 +136,9 @@
                .left{
                   width: 220px;
                   height: 39px;
+                  position: relative;
+                  &:hover .l_u1{display:block;} 
+                 
                     h3{
                         font-size: 12px;
                         font-weight: bold;
@@ -127,19 +147,19 @@
                         line-height: 37px; 
                         background: #0086d4; 
                         padding-left: 40px;
-                        position: relative;
                         float: left;
                         box-sizing:border-box;
-                        &:hover .l_u1{display:block;} 
+                        
                       }
                     .l_u1{
                         width: 220px;
                         height: 420px;
                         background: #f1fafd;
                         position: absolute;
-                        top: 182px;
-                        left:37px;
-                        display:none;
+                        top: 0;
+                        left:0;
+                        margin-top: 39px;
+                        display: none;
                         .l_1:hover {border-left-color: #ff5555;background-color:#ffffff;}
                         .l_2:hover {border-left-color: #11ccaa;background-color:#ffffff;}
                         .l_3:hover {border-left-color: #66cc33;background-color:#ffffff;}

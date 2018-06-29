@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/*登录页面头部*/
+#login_header {
+  width: 100%;
+  height: 130px; }
+  #login_header .re_top {
+    height: 30px;
+    background: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+    line-height: 30px; }
+    #login_header .re_top .wrap {
+      width: 990px;
+      height: 30px;
+      font-size: 12px;
+      margin: 0 auto;
+      color: #787878;
+      display: flex;
+      justify-content: space-between; }
+      #login_header .re_top .wrap ul {
+        width: 296px;
+        height: 30px;
+        line-height: 30px;
+        display: flex;
+        justify-content: space-around; }
+        #login_header .re_top .wrap ul a {
+          color: #787878; }
+          #login_header .re_top .wrap ul a:hover {
+            color: #00a4ed; }
+        #login_header .re_top .wrap ul span {
+          padding-left: 13px;
+          padding-right: 13px; }
+  #login_header .re_bot {
+    width: 990px;
+    height: 100px;
+    margin: 0 auto; }
+    #login_header .re_bot .left {
+      width: 305px;
+      padding-top: 17px; }
+
+/*banner部分*/
+.re_banner {
+  height: 689px;
+  width: 100%;
+  background: #4ec6f8; }
+  .re_banner .wrap {
+    width: 990px;
+    height: 689px;
+    background: #4ec6f8;
+    margin: 0 auto;
+    position: relative; }
+    .re_banner .wrap .pic {
+      width: 640px;
+      height: 438px;
+      padding-top: 95px;
+      float: left; }
+    .re_banner .wrap .re_box {
+      width: 387px;
+      height: 409px;
+      position: absolute;
+      margin-left: 590px;
+      margin-top: 110px;
+      background: white;
+      padding-left: 30px;
+      padding-right: 30px;
+      box-sizing: border-box;
+      font-size: 12px;
+      color: #000;
+      /*头部分*/
+      /*form*/
+      /*bottom*/ }
+      .re_banner .wrap .re_box .re_header {
+        width: 316px;
+        height: 80px;
+        line-height: 100px;
+        display: flex;
+        justify-content: space-between; }
+        .re_banner .wrap .re_box .re_header b {
+          font-size: 18px;
+          color: #666; }
+        .re_banner .wrap .re_box .re_header p {
+          padding-top: 4px; }
+          .re_banner .wrap .re_box .re_header p a {
+            color: #00a4ed; }
+      .re_banner .wrap .re_box .center form {
+        width: 316px;
+        font-size: 14px; }
+        .re_banner .wrap .re_box .center form div {
+          width: 316px;
+          height: 36px;
+          line-height: 36px;
+          border: 1px solid #bebebe;
+          margin-top: 20px;
+          font-family: 'microsoft yahei'; }
+          .re_banner .wrap .re_box .center form div:first-child {
+            position: relative; }
+          .re_banner .wrap .re_box .center form div span {
+            display: block;
+            width: 40px;
+            height: 32px;
+            float: left;
+            background: url(/images/form-icon.png);
+            border-right: 1px solid #f0f0f0; }
+          .re_banner .wrap .re_box .center form div .us {
+            background-position: -122px -14px; }
+          .re_banner .wrap .re_box .center form div .ps {
+            background-position: -122px -43px; }
+          .re_banner .wrap .re_box .center form div input {
+            width: 274px;
+            height: 33px;
+            line-height: 33px;
+            float: right;
+            outline: none;
+            padding-left: 22px;
+            box-sizing: border-box; }
+            .re_banner .wrap .re_box .center form div input::-webkit-input-placeholder {
+              /*WebKit browsers*/
+              color: #dfdfdf; }
+      .re_banner .wrap .re_box .center .ck {
+        display: block;
+        width: 316px;
+        height: 36px;
+        line-height: 18px;
+        margin-top: 22px;
+        font-size: 12px;
+        color: #000;
+        display: flex;
+        justify-content: space-between; }
+        .re_banner .wrap .re_box .center .ck input {
+          width: 14px;
+          height: 14px;
+          float: left; }
+        .re_banner .wrap .re_box .center .ck a {
+          color: #00a5da; }
+      .re_banner .wrap .re_box .bottom {
+        height: 110px; }
+        .re_banner .wrap .re_box .bottom button {
+          width: 340px;
+          height: 44px;
+          background: #009de0;
+          color: white;
+          border: 0px; }
+        .re_banner .wrap .re_box .bottom .fo_b {
+          width: 319px;
+          height: 64px;
+          color: #999;
+          font-size: 11px;
+          padding-top: 47px; }
+          .re_banner .wrap .re_box .bottom .fo_b .coagent {
+            position: relative;
+            width: 267px;
+            height: 64px;
+            line-height: 64px;
+            float: left; }
+            .re_banner .wrap .re_box .bottom .fo_b .coagent dt {
+              width: 82px;
+              height: 64px;
+              float: left; }
+            .re_banner .wrap .re_box .bottom .fo_b .coagent dd {
+              width: 24px;
+              height: 24px;
+              margin-left: 7px;
+              margin-top: 20px;
+              background-image: url(/images/form-icon.png);
+              background-repeat: no-repeat;
+              display: inline-block; }
+            .re_banner .wrap .re_box .bottom .fo_b .coagent .qq {
+              background-position: -22px -193px; }
+            .re_banner .wrap .re_box .bottom .fo_b .coagent .sweibo {
+              background-position: -52px -193px; }
+            .re_banner .wrap .re_box .bottom .fo_b .coagent .ali {
+              background-position: -83px -193px; }
+            .re_banner .wrap .re_box .bottom .fo_b .coagent .bank {
+              background-position: -114px -193px; }
+          .re_banner .wrap .re_box .bottom .fo_b .right {
+            width: 52px;
+            height: 64px;
+            line-height: 20px;
+            padding-top: 12px;
+            box-sizing: border-box;
+            float: right; }
+            .re_banner .wrap .re_box .bottom .fo_b .right .wx_entry {
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              margin-top: -38px;
+              right: 0px;
+              background: url(/images/form-icon.png) -600px -8px; }
+
+/*register-footer*/
+.footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 11px; }
+  .footer .wraper {
+    width: 990px;
+    margin-right: auto;
+    margin-left: auto; }
+    .footer .wraper .crdc .copyright {
+      height: 15px;
+      line-height: 15px;
+      background: url(/images/cprt.png) left center repeat-x;
+      text-align: center;
+      color: #999; }
+      .footer .wraper .crdc .copyright span {
+        padding: 0 8px;
+        background: #fff; }
+
+/*# sourceMappingURL=login.css.map */
