@@ -1,7 +1,7 @@
 require(["config"], function(){
 	require(["jquery", "cookie"],function($){
 		$(function(){
-			var phone_key = 0, password_key = 0, repassword_key = 0;
+			var phone_key = 0, pswd_key = 0, conpswd_key = 0;
 			$("#phone").blur(function(){
 				var reg = /^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/;
 				var _phone = $(this).val();
@@ -17,7 +17,7 @@ require(["config"], function(){
 							}
 						}
 						else{
-							$("#phone").next("b").html("用户名已存在").css("color", "red");
+							$("#phone").next(".info").html("用户名已存在").css("color", "red");
 							phone_key = -1;
 						}
 					} else {
@@ -42,11 +42,11 @@ require(["config"], function(){
 				var _repassword = $(this).val();
 				if(_password === _repassword){
 					$("#repassword").next("b").html("密码一致").css("color", "green");
-					repassword_key = 1;
+					conpswd_key = 1;
 				}
 				else{
 					$("#repassword").next("b").html("密码不一致").css("color", "red");
-					repassword_key = -1;
+					conpswd_key = -1;
 				}
 			});
 			$("#vcode").blur(function(){
@@ -62,8 +62,8 @@ require(["config"], function(){
 				var _phone = $('#phone').val();
 				var _password = $("#set_pswd").val();
 				var _repassword = $("#con_pswd").val();
-				if(phone_key == 1 && password_key == 1 && repassword_key == 1){
-					$.post("http://localhost/php/register.php", {phone:_phone, password:_password, yqkey:_yqkey}, function(data){
+				if(phone_key == 1 && pswd_key == 1 && conpswd_key == 1){
+					$.post("http://localhost/php/register.php", {phone:_phone, password:_password}, function(data){
 						console.log(data);
 						console.log(data.res_body.status);
 						console.log("111");
@@ -77,8 +77,7 @@ require(["config"], function(){
 								$.cookie('username', _phone, { expires: 7, path: '/' });
 								setTimeout(function(){
 									location.href="/index.html";
-								},10000)
-								
+								},10000)							
 //								location = "regSuccess.html";
 							}
 						}
